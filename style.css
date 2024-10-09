@@ -1,0 +1,520 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(fonts/Montserrat-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(fonts/Montserrat-Medium.woff2);
+}
+
+.page__sizes {
+    height: auto;
+    width: 80vw;
+    padding: 0 10vw 0 10vw;
+}
+
+.header___sizes {
+    height: 100vh;
+    width: auto;
+}
+
+.header__background {
+    height: 100vh;
+    width: auto;
+    background: rgb(13,30,32);
+    background: linear-gradient(209deg, rgba(13,30,32,1) 0%, rgba(49,62,42,1) 20%, rgba(38,45,32,1) 100%);
+}
+.header__nav___sizes {
+    height: 68px;
+    width: auto;
+    padding: 0 10vw 0 10vw;
+}
+
+.header__nav__flex {
+    height: 68px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav__logo {
+    align-self: center;
+}
+
+.navbar-wrapper {
+    align-self: center;
+}
+
+ul {
+    align-self: center;
+}
+
+li {
+    display: inline;
+}
+
+li:nth-child(2) {
+    padding: 0 2vw 0 2vw;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    color: rgba(252, 67, 8, 1);
+}
+
+.header__content___sizes {
+    margin: 0 10vw 0 10vw;
+    padding-top: 5vh;
+}
+
+.header__content__flex {
+    display: flex;
+}
+
+.header__content__text {
+    align-self: center;
+}
+
+h1 {
+    font-family: 'Montserrat-Medium';
+    font-size: 100px;
+    line-height: 105%;
+    color: rgba(252, 67, 8, 1);
+}
+
+.header__content__p___sizes {
+    height: auto;
+    width: 30vw;
+}
+
+p {
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(252, 67, 8, 1);
+}
+
+.header__content__image {
+    height: 80vh;
+    width: auto;
+}
+
+.our-work-section___sizes {
+    height: 100vh;
+    width: auto;
+}
+
+.our-work-section__background {
+    height: 100vh;
+    width: auto;
+    background-color: rgba(14, 21, 19, 1);
+}
+
+.our-work-section__content___sizes {
+    padding-top: 5vh;
+    margin: 0 10vw 0 10vw;
+}
+
+#on-top-button {
+    display: none;
+    position: fixed;
+    bottom: 5vh;
+    right: 2.5vw;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px;
+    font-size: 40px;
+    color:rgba(252, 69, 8, 0.215);
+    transition: 0.5s ease;
+}
+
+#on-top-button:hover {
+    transform: scale(1.2);
+}
+
+
+h2 {
+    font-family: 'Montserrat-Medium';
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: rgba(252, 67, 8, 1);
+}
+
+.our-work-section__flex {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__images {
+    height: 60vh;
+    width: auto;
+}
+
+h6 {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: rgba(252, 67, 8, 0.8);
+}
+
+h5 {
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    line-height: 105%;
+    letter-spacing: -6.5%;
+    color: rgba(252, 67, 8, 1);
+}
+
+.main__portraits-section__background {
+    background: rgb(50,62,42);
+    background: linear-gradient(90deg, rgba(50,62,42,1) 0%, rgba(16,24,21,1) 100%);
+}
+
+.main__portraits-section___sizes {
+    height: 400vh;
+    width: auto;
+    margin: 0 10vw 0 10vw;
+}
+
+.portraits-section__flex {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portraits-section__card__text{
+    width: 30vw;
+    align-self: center;
+}
+
+h4 {
+    font-family: 'Montserrat-Medium';
+    font-size: 48px;
+    line-height: 105%;
+    letter-spacing: -6.5%;
+    color: rgba(252, 67, 8, 1);
+}
+
+.portraits-section__images {
+    height: 80vh;
+    width: auto;
+}
+
+.portraits-section__victorian-collection {
+    padding-top: 15vh;
+}
+
+.victorian-collection__text {
+    text-align: center;
+}
+
+.victorian-collection__image-flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.victorian-collection__image {
+    padding-top: 10vh;
+}
+
+.footer___sizes {
+    height: 100vh;
+    width: auto;
+}
+
+.footer__background {
+    height: 100vh;
+    width: auto;
+    background-color: rgba(14, 21, 19, 1);
+}
+
+.footer__text {
+    padding-top: 15vh;
+    width: 45vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-us-button {
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    color: rgba(252, 67, 8, 0.8);
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border: 2px solid rgba(252, 67, 8, 0.8);
+}
+
+.footer__flex {
+    padding-top: 25vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* media */
+
+/* 1320 */
+@media (max-width: 1320px) {
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .card__images{
+        height: 45vh;
+        width: auto;
+    }
+
+    .footer__flex {
+        padding-top: 15vh;
+    }
+
+}
+
+/* 1100 */
+
+@media (max-width: 1100px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    .card__images{
+        height: 40vh;
+        width: auto;
+    }
+
+    .main__portraits-section___sizes {
+        height: 320vh;
+        width: auto;
+    }
+
+    .portraits-section__images {
+        height: 60vh;
+        width: auto;
+    }
+
+    .victorian-collection__image {
+        height: 60vh;
+        width: auto;
+    }
+}
+
+/* 1000 */
+
+@media (max-width: 1000px) {
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .header__content__image {
+        height: 65vh;
+        width: auto;
+    }
+
+    .card__images{
+        height: 35vh;
+        width: auto;
+    }
+
+    .main__portraits-section___sizes {
+        height: 290vh;
+        width: auto;
+    }
+
+    .portraits-section__images {
+        height: 50vh;
+        width: auto;
+    }
+
+    .footer__text {
+        width: 50vw;
+    }
+}
+
+
+/* 900 */
+
+@media (max-width: 900px) {
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .header__content__image {
+        height: 55vh;
+        width: auto;
+    }
+
+    .card__images {
+        height: 30vh;
+        width: auto;
+    }
+
+    .main__portraits-section___sizes {
+        height: auto;
+    }
+
+    .victorian-collection__image {
+        height: 50vh;
+        width: auto;
+    }
+
+    .footer__flex {
+        padding-top: 17vh;
+    }
+
+    .footer__text {
+        width: 50vw;
+    }
+}
+
+/* 780 */
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .portraits-section__images {
+        height: 40vh;
+        width: auto;
+    }
+
+    #on-top-button {
+        padding: 0;
+        position: fixed;
+        bottom: 5vh;
+        right: 5vw;
+    }
+
+    .victorian-collection__image {
+        height: 45vh;
+        width: auto;
+    }
+
+    .footer__text {
+        width: 55vw;
+    }
+
+}
+
+/* 590 */
+@media (max-width: 590px) {
+    .navbar-wrapper {
+        display: none;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .header__content__p___sizes {
+        width: 40vw;
+    }
+
+    .header__content__image {
+        height: 45vh;
+        width: auto;
+    }
+
+    .our-work-section__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-work-section___sizes {
+        height: 140vh;
+        width: auto;
+    }
+
+    .our-work-section__background {
+        height: 140vh;
+        width: auto;
+    }
+
+    .portraits-section__flex {
+        flex-wrap: wrap;
+        padding-top: 20vh;
+    }
+
+    .portraits-section__card__text {
+        width: 70vw;
+    }
+
+    .victorian-collection__image {
+        height: 40vh;
+        width: auto;
+    }
+
+    .main__portraits-section__background {
+        height: auto;
+    }
+
+    .footer__text {
+        width: 80vw;
+    }
+
+}
+
+/* 480 */
+
+@media (max-width: 480px) {
+    .header__content__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__content__p___sizes {
+        width: 80vw;
+        padding-bottom: 5vh;
+    }
+
+    .header___sizes {
+        height: auto;
+    }
+
+    .header__background {
+        height: auto;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    .portraits-section__flex{
+        padding-top: 15vh;
+    }
+
+    .portraits-section__card__text {
+        width: 80vw;
+    }
+
+    .victorian-collection__image {
+        height: 24vh;
+        width: auto;
+    }
+
+    .footer__flex {
+        flex-wrap: wrap;
+    }
+
+}
